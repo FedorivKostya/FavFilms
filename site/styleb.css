@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 113, 136);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: aliceblue;
+    width: 75%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header p {
+    font-size: 75px;
+    color: rgb(252, 113, 136);
+}
+
+header img {
+    width: 80%;
+}
+
+header button {
+    margin-top: 20px;
+    height: 65px;
+    width: 70%;
+    background-color:rgb(252, 113, 136);
+    color: aliceblue;
+    border-radius: 30px;
+    border-color: rgb(252, 113, 136);
+    cursor: pointer;
+    font-size: large;
+}
+
+header button img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+}
+
+main {
+    background-color: aliceblue;
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main table {
+    margin: 20px;
+    width: 70%;
+}
+
+main table tr {
+    height: 50px;
+}
+
+main table tr>*:first-child {
+    width: 50%;
+    font-weight: 600;
+}
+
+main span {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+main p {
+    margin: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(252, 113, 136);
+    justify-content: center;
+}
+
+footer img {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+}
